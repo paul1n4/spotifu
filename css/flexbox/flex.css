@@ -1,0 +1,36 @@
+.flex-1 {
+  display: flex;
+}
+
+.flex-1 > * {
+  border: 1px solid red !important;
+  flex-grow: 2;
+  flex-basis: 100px;
+  padding: 1rem !important;
+}
+
+.flex-1 > p {
+  flex-grow: 1;
+  border: 1px solid green !important;
+  flex-basis: 50px;
+}
+
+.flex-2 {
+  display: flex;
+  background: lightgray;
+}
+
+.flex-2 > div {
+  border: 1px solid red;
+  /* flex-grow: 1; */
+  /* flex-basis: 100%; */
+  flex: 1;
+/*   flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%; */
+}
+
+.flex-2 > img {
+  inline-size: 400px;
+  flex-shrink: 0;
+}
