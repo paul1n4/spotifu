@@ -1,16 +1,22 @@
 @import './icons.css';
+@import './fonts.css';
+@import './body.css';
+@import './link.css';
 
 :root {
   --primary: #00B050;
   --white: #ffffff;
-  --gris10: #B3B3B3; 
-  --gris20: #737373; 
-  --gris30: #282828; 
-  --gris40: #181818; 
-  --gris50: #121212; 
-  --gris60: #000000; 
-}
-
-body {
-  background: var(--primary);
+  --gray10: #B3B3B3; 
+  --gray20: #737373; 
+  --gray30: #282828; 
+  --gray40: #181818; 
+  --gray50: #121212; 
+  --gray60: #000000; 
+  --basefontFamily: Avenir, Helvetica, sans-serif;
+  --headline1: bold 2rem/normal var(--basefontFamily);
+  --headline2: bold 1.5rem/1.75rem var(--basefontFamily);
+  --baseFont: normal .875rem/1.375rem var(--basefontFamily);
+  --baseFontBold: bold .875rem/1.375rem var(--basefontFamily);
+  --button: bold .875rem/1rem var(--basefontFamily);
+  --small: normal .75em/normal var(--basefontFamily);
 }
