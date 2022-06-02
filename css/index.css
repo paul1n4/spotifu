@@ -3,8 +3,8 @@
 @import './body.css';
 @import './link.css';
 @import './button-icon.css';
-@import './logo.css';
-@import './list.css';
+@import './sidebar.css';
+@import './ellipsis.css';
 
 :root {
   --primary: #00B050;
