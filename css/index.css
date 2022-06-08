@@ -5,6 +5,7 @@
 @import './button-icon.css';
 @import './sidebar.css';
 @import './ellipsis.css';
+@import './player.css';
 
 :root {
   --primary: #00B050;

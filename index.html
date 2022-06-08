@@ -11,27 +11,28 @@
   <meta property="og:type" content="website" />
   <meta property="og:description" content="Proyecto Spotifu con flexbox" />
   <meta property="og:url" content="https://paul1n4.github.io/spotifu/" />
-  <meta property="og:image" content="https://raw.githubusercontent.com/paul1n4/spotifu/master/images/thumbnail-spotifu.jpg" />
+  <meta property="og:image" content="https://github.com/paul1n4/spotifu/blob/master/images/thumbnail-spotifu.jpg?raw=true" />
 
   <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-<link rel="manifest" href="./favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body class="body">
+
   <div class="sidebar">    
     <header class="logo">
       <a href="/" aria-current="page">
@@ -128,12 +129,65 @@
     </nav>
   </div>
 
-  <button class="buttonIcon is-white" aria-label="Play" title="Play">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-  <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-
+  <div class="player">
+    <div class="player-nowPlaying">
+      <div class="nowPlaying">
+        <div class="nowPlaying-cover">
+          <img src="./images/grand-escape.png" width="56" height="56" alt="Portada de Grand Escape (feat. Tokio Miura) de RADWIMPS, Toko Miura" title="Portada de Grand Escape (feat. Tokio Miura) de RADWIMPS, Toko Miura">
+        </div>
+        <div class="nowPlaying-details">
+          <div class="nowPlaying-description">
+            <a href="#song" class="nowPlaying-title">Grand Escape (feat. Tokio Miura)</a>
+            <a href="#RADWIMPS" class="nowPlaying-artist">RADWIMPS, Toko Miura</a>
+          </div>
+          <div class="nowPlaying-actions">
+            <button class="player-control" role="switch" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+              <i class="icon-heart" aria-hidden="true" ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="player-playerControls">
+      <div class="playerControls">
+        <div class="playerControls-buttons" aria-label="Controles de reproducción">
+          <button class="buttonIcon" aria-label="Preview" title="Preview">
+            <i class="icon-prev" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon is-white" aria-label="Play" title="Play">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon" aria-label="Next" title="Next">
+            <i class="icon-next" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="playerPlayback" >
+          <span class="playerPlayback-progressTime">01:40</span>
+          <div class="playerPlayback-slider">
+            <div class="slider">
+              <div class="slider-progress">
+                <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+              </div>
+            </div>
+          </div>
+          <span class="playerPlayback-progressTime">01:40</span>
+        </div>
+      </div>
+    </div>
+    <div class="player-playerVolume">
+      <div class="playerVolume">
+        <button class="player-control" aria-label="Silenciar" aria-describedby="volume-icon">
+          <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volume"></i>
+        </button>
+        <div class="playerVolume-slider">
+          <div class="slider">
+            <div class="slider-progress">
+              <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
