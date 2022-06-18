@@ -7,6 +7,8 @@
 @import './ellipsis.css';
 @import './player.css';
 @import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
 
 :root {
   --primary: #00B050;
