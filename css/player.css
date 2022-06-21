@@ -10,6 +10,8 @@
   gap: 1.5rem;
   padding: 1rem;
   box-shadow: inset 0px 1px 0 var(--gray30);
+  block-size: 5.625rem;
+  box-sizing: border-box;
 }
 
 .player > * {

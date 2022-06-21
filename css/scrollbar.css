@@ -9,17 +9,18 @@
 } */
 
 ::-webkit-scrollbar-thumb {
-  background: var(--gray60);
+  background: var(--gray30);
+  border-radius: 0.75rem;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--gray50);
+  background: var(--gray60);
 }
 
 /* ::-webkit-scrollbar-thumb:horizontal {
   background: pink;
+} */
+
+.layout::-webkit-scrollbar-track:vertical {
+  background: var(--gray60);
 }
-.playlistList-container::-webkit-scrollbar-thumb:horizontal {
-  background: black;
-}
- */
