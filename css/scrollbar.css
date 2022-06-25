@@ -1,5 +1,4 @@
 ::-webkit-scrollbar {
-  /* background: red; */
   inline-size: .5rem;
   block-size: .5rem;
 }
@@ -14,7 +13,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--gray60);
+  background: var(--gray50);
 }
 
 /* ::-webkit-scrollbar-thumb:horizontal {

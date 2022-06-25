@@ -1,0 +1,13 @@
+.playlistHeader {
+  text-align: center;
+}
+
+.playlistHeader-title {
+  font: var(--headline1);
+  color: var(--white);
+}
+
+.playlistHeader-subscribers{
+  font: var(--baseFont);
+  color: var(--white);
+}

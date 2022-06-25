@@ -15,3 +15,7 @@
   background: var(--primary);
   color: var(--white);
 }
+
+.button:active {
+  transform: scale(.95);
+}

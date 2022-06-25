@@ -1,6 +1,6 @@
 :root {
   --sidebarInlineSize: 15rem;
-  --minBlockSize: 37.5rem;
+  /* --minBlockSize: 37.5rem; */
   --minInlineSize: 48rem;
   --bottomSize: 5.625rem;
 }
@@ -11,7 +11,7 @@
 
 .layout-sidebar {
   block-size: calc(100vh - var(--bottomSize));
-  min-block-size: var(--minBlockSize);
+  /* min-block-size: var(--minBlockSize); */
   inline-size: var(--sidebarInlineSize);
   overflow: auto;
   flex-shrink: 0;
@@ -20,7 +20,7 @@
 
 .layout-main {
   block-size: calc(100vh - var(--bottomSize));
-  min-block-size: var(--minBlockSize);
+  /* min-block-size: var(--minBlockSize); */
   overflow: auto;
 }
 
@@ -34,5 +34,5 @@
 }
 
 .layout-main-playlist {
-  background-image: url("../images/background-list.jpg");
+  background: url("../images/background-list.jpg") no-repeat center;
 }
