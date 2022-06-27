@@ -1,0 +1,35 @@
+.playlistDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playlistDetails-title {
+  font: var(--baseFont);
+}
+
+.playlistDetails-artist {
+  font: var(--baseFont);
+}
+
+.playlistDetails-album {
+  font: var(--baseFont);
+}
+
+.playlistDetails-calendar {
+  font: var(--baseFont);
+}
+
+.playlistDetails-duration {
+  font: var(--baseFont);
+}
+
+.playlistDetails-action{
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+}
+
+.playlistDetails-date {
+  display: flex;
+  gap: 1.25rem;
+}

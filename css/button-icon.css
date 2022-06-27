@@ -18,6 +18,13 @@
   color: var(--white);
 }
 
+.buttonIcon.is-outline {
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  border: 1px solid var(--white);
+  font-size: .5rem;
+}
+
 .buttonIcon .icon-play {
   position: relative;
   left: 1px;

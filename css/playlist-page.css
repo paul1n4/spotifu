@@ -1,5 +1,13 @@
 @import './playlist-header.css';
+@import './playlist-search.css';
+@import './playlist-info.css';
+@import './playlist-details.css';
+
 
 .playlistPage {
  
+}
+
+.playlistContent {
+  margin-block-start: 1.875rem;
 }

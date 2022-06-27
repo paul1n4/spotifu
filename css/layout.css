@@ -35,4 +35,7 @@
 
 .layout-main-playlist {
   background: url("../images/background-list.jpg") no-repeat center;
+  block-size: calc(100vh - var(--bottomSize));
+  overflow: auto;
+  flex: 1;
 }

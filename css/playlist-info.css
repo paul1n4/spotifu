@@ -1,0 +1,17 @@
+.playlistInfo {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 5rem;
+}
+
+.playlistInfo-title {
+  font: var(--subtitle2);
+}
+
+.playlistInfo-artist {
+  font: var(--subtitle2);
+}
+
+.playlistInfo-album {
+  font: var(--subtitle2);
+}

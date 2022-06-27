@@ -1,0 +1,5 @@
+.playlistSearch{
+  display: flex;
+  align-items: center;
+  margin-block-start: 1.5rem;
+}
